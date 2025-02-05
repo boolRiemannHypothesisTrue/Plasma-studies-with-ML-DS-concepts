@@ -1,0 +1,76 @@
+{"Matlab Code":"a = 10;","Python Code":"a = 10","Explanation in Short":"Assigns the value 10 to variable a."}
+{"Matlab Code":"b = [1 2 3];","Python Code":"b = [1, 2, 3]","Explanation in Short":"Creates an array b with elements 1, 2, and 3."}
+{"Matlab Code":"c = a + b;","Python Code":"c = a + b","Explanation in Short":"Adds the values of a and b and assigns the result to variable c."}
+{"Matlab Code":"d = linspace(0, 1, 10);","Python Code":"import numpy as np<br>d = np.linspace(0, 1, 10)","Explanation in Short":"Generates an array d with 10 equally spaced values between 0 and 1."}
+{"Matlab Code":"for i = 1:5<br> disp(i);<br>end","Python Code":"for i in range(1, 6):<br> print(i)","Explanation in Short":"Prints the values 1 to 5 using a loop."}
+{"Matlab Code":"x = -pi:0.1:pi;","Python Code":"import numpy as np<br>x = np.arange(-np.pi, np.pi, 0.1)","Explanation in Short":"Creates an array x with values ranging from -\u03c0 to \u03c0 with a step size of 0.1."}
+{"Matlab Code":"y = sin(x);","Python Code":"import numpy as np<br>y = np.sin(x)","Explanation in Short":"Calculates the sine of each element in array x and assigns the result to array y."}
+{"Matlab Code":"A = [1 2; 3 4];","Python Code":"import numpy as np<br>A = np.array([[1, 2], [3, 4]])","Explanation in Short":"Creates a 2x2 matrix A with specified values."}
+{"Matlab Code":"B = inv(A);","Python Code":"import numpy as np<br>B = np.linalg.inv(A)","Explanation in Short":"Calculates the inverse of matrix A and assigns the result to matrix B."}
+{"Matlab Code":"plot(x, y);","Python Code":"import matplotlib.pyplot as plt<br>plt.plot(x, y)<br>plt.show()","Explanation in Short":"Plots the values of x and y in a graph using the matplotlib library."}
+{"Matlab Code":"x = 1:10;","Python Code":"x = list(range(1, 11))","Explanation in Short":"Creates an array x with values 1 to 10."}
+{"Matlab Code":"y = x.^2;","Python Code":"y = [i**2 for i in x]","Explanation in Short":"Calculates the square of each element in array x and assigns the result to array y."}
+{"Matlab Code":"z = sqrt(x);","Python Code":"import math<br>z = [math.sqrt(i) for i in x]","Explanation in Short":"Calculates the square root of each element in array x and assigns the result to array z."}
+{"Matlab Code":"A = ones(3, 4);","Python Code":"import numpy as np<br>A = np.ones((3, 4))","Explanation in Short":"Creates a 3x4 matrix A with all elements equal to 1."}
+{"Matlab Code":"B = eye(5);","Python Code":"import numpy as np<br>B = np.eye(5)","Explanation in Short":"Creates a 5x5 identity matrix B."}
+{"Matlab Code":"C = rand(2, 3);","Python Code":"import numpy as np<br>C = np.random.rand(2, 3)","Explanation in Short":"Creates a 2x3 matrix C with random values between 0 and 1."}
+{"Matlab Code":"D = zeros(4, 2);","Python Code":"import numpy as np<br>D = np.zeros((4, 2))","Explanation in Short":"Creates a 4x2 matrix D with all elements equal to 0."}
+{"Matlab Code":"E = linspace(1, 5, 7);","Python Code":"import numpy as np<br>E = np.linspace(1, 5, 7)","Explanation in Short":"Generates an array E with 7 equally spaced values between 1 and 5."}
+{"Matlab Code":"F = reshape(A, 2, 6);","Python Code":"import numpy as np<br>F = np.reshape(A, (2, 6))","Explanation in Short":"Reshapes the matrix A into a 2x6 matrix F."}
+{"Matlab Code":"G = max(x);","Python Code":"G = max(x)","Explanation in Short":"Finds the maximum value in array x and assigns it to variable G."}
+{"Matlab Code":"H = min(y);","Python Code":"H = min(y)","Explanation in Short":"Finds the minimum value in array y and assigns it to variable H."}
+{"Matlab Code":"I = sum(x);","Python Code":"I = sum(x)","Explanation in Short":"Calculates the sum of all elements in array x and assigns it to variable I."}
+{"Matlab Code":"J = length(y);","Python Code":"J = len(y)","Explanation in Short":"Determines the length of array y and assigns it to variable J."}
+{"Matlab Code":"K = sort(x, 'descend');","Python Code":"K = sorted(x, reverse=True)","Explanation in Short":"Sorts the elements of array x in descending order and assigns the result to array K."}
+{"Matlab Code":"L = prod(x);","Python Code":"import numpy as np<br>L = np.prod(x)","Explanation in Short":"Calculates the product of all elements in array x and assigns it to variable L."}
+{"Matlab Code":"M = find(x > 5);","Python Code":"import numpy as np<br>M = np.where(x > 5)[0]","Explanation in Short":"Finds the indices of elements in array x that are greater than 5 and assigns them to array M."}
+{"Matlab Code":"N = mod(x, 2);","Python Code":"import numpy as np<br>N = np.mod(x, 2)","Explanation in Short":"Performs element-wise modulo operation on array x with 2 and assigns the result to array N."}
+{"Matlab Code":"O = repmat(x, 2, 1);","Python Code":"import numpy as np<br>O = np.tile(x, (2, 1))","Explanation in Short":"Repeats array x twice vertically and once horizontally to create a 20x1 matrix O."}
+{"Matlab Code":"P = isprime(x);","Python Code":"import sympy<br>P = [sympy.isprime(i) for i in x]","Explanation in Short":"Checks if each element in array x is a prime number and assigns the result to array P."}
+{"Matlab Code":"Q = unique(x);","Python Code":"import numpy as np<br>Q = np.unique(x)","Explanation in Short":"Finds the unique elements in array x and assigns them to array Q."}
+{"Matlab Code":"R = numel(x);","Python Code":"R = len(x)","Explanation in Short":"Determines the total number of elements in array x and assigns it to variable R."}
+{"Matlab Code":"S = round(pi, 3);","Python Code":"import numpy as np<br>S = np.round(np.pi, 3)","Explanation in Short":"Rounds the value of \u03c0 to 3 decimal places and assigns it to variable S."}
+{"Matlab Code":"T = cross([1 2 3], [4 5 6]);","Python Code":"import numpy as np<br>T = np.cross([1, 2, 3], [4, 5, 6])","Explanation in Short":"Computes the cross product of the vectors [1, 2, 3] and [4, 5, 6] and assigns it to vector T."}
+{"Matlab Code":"U = diag(A);","Python Code":"import numpy as np<br>U = np.diag(A)","Explanation in Short":"Extracts the diagonal elements of matrix A and assigns them to array U."}
+{"Matlab Code":"V = flipud(A);","Python Code":"import numpy as np<br>V = np.flipud(A)","Explanation in Short":"Reverses the order of rows in matrix A and assigns the result to matrix V."}
+{"Matlab Code":"W = find(A > 2);","Python Code":"import numpy as np<br>W = np.where(A > 2)","Explanation in Short":"Finds the indices of elements in matrix A that are greater than 2 and assigns them to a tuple W."}
+{"Matlab Code":"x = 1:20;","Python Code":"x = list(range(1, 21))","Explanation in Short":"Creates a list x with elements 1 to 20"}
+{"Matlab Code":"y = x .* 2;","Python Code":"y = [i * 2 for i in x]","Explanation in Short":"Multiplies each element in x by 2 and assigns the result to y"}
+{"Matlab Code":"z = sum(x);","Python Code":"z = sum(x)","Explanation in Short":"Calculates the sum of all elements in x"}
+{"Matlab Code":"A = eye(3);","Python Code":"import numpy as np\\nA = np.eye(3)","Explanation in Short":"Creates a 3x3 identity matrix A"}
+{"Matlab Code":"B = rand(4, 2);","Python Code":"import numpy as np\\nB = np.random.rand(4, 2)","Explanation in Short":"Creates a 4x2 matrix with random values"}
+{"Matlab Code":"C = sqrt(x);","Python Code":"import numpy as np\\nC = np.sqrt(x)","Explanation in Short":"Calculates the square root of each element in x and assigns the result to C"}
+{"Matlab Code":"D = numel(A);","Python Code":"D = np.size(A)","Explanation in Short":"Calculates the number of elements in A"}
+{"Matlab Code":"E = reshape(A, 2, 6);","Python Code":"import numpy as np\\nE = np.reshape(A, (2, 6))","Explanation in Short":"Reshapes A into a 2x6 matrix"}
+{"Matlab Code":"F = max(x);","Python Code":"F = max(x)","Explanation in Short":"Finds the maximum value in x"}
+{"Matlab Code":"G = min(y);","Python Code":"G = min(y)","Explanation in Short":"Finds the minimum value in y"}
+{"Matlab Code":"H = sum(x) \/ length(x);","Python Code":"H = np.mean(x)","Explanation in Short":"Calculates the mean value of x"}
+{"Matlab Code":"I = find(x > 10);","Python Code":"I = np.where(np.array(x) > 10)[0]","Explanation in Short":"Finds the indices where elements in x are greater than 10"}
+{"Matlab Code":"J = sort(x);","Python Code":"J = sorted(x)","Explanation in Short":"Sorts the elements in x in ascending order"}
+{"Matlab Code":"K = abs(x);","Python Code":"K = np.abs(x)","Explanation in Short":"Calculates the absolute values of x"}
+{"Matlab Code":"L = linspace(1, 10, 20);","Python Code":"L = np.linspace(1, 10, 20)","Explanation in Short":"Creates an array with 20 equally spaced values from 1 to 10"}
+{"Matlab Code":"M = reshape(x, 4, 5);","Python Code":"import numpy as np\\nM = np.reshape(x, (4, 5))","Explanation in Short":"Reshapes x into a 4x5 matrix"}
+{"Matlab Code":"N = max(A, [], 'all');","Python Code":"N = np.max(A)","Explanation in Short":"Finds the maximum value in A"}
+{"Matlab Code":"O = min(B, [], 'all');","Python Code":"O = np.min(B)","Explanation in Short":"Finds the minimum value in B"}
+{"Matlab Code":"P = mean(C);","Python Code":"P = np.mean(C)","Explanation in Short":"Calculates the mean value of C"}
+{"Matlab Code":"Q = size(A);","Python Code":"Q = np.shape(A)","Explanation in Short":"Returns the dimensions of A"}
+{"Matlab Code":"x = linspace(0, 2*pi, 100);","Python Code":"import numpy as np\\nx = np.linspace(0, 2*np.pi, 100)","Explanation in Short":"Creates an array with 100 evenly spaced values from 0 to 2*pi"}
+{"Matlab Code":"y = sin(x);","Python Code":"y = np.sin(x)","Explanation in Short":"Calculates the sine of each element in x"}
+{"Matlab Code":"z = exp(x);","Python Code":"z = np.exp(x)","Explanation in Short":"Calculates the exponential of each element in x"}
+{"Matlab Code":"A = [1 2 3; 4 5 6; 7 8 9];","Python Code":"A = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])","Explanation in Short":"Creates a 3x3 matrix A with specific values"}
+{"Matlab Code":"B = inv(A);","Python Code":"B = np.linalg.inv(A)","Explanation in Short":"Calculates the inverse of matrix A"}
+{"Matlab Code":"C = diag(A);","Python Code":"C = np.diag(A)","Explanation in Short":"Extracts the diagonal elements of A"}
+{"Matlab Code":"D = sum(A);","Python Code":"D = np.sum(A, axis=0)","Explanation in Short":"Calculates the column-wise sum of A"}
+{"Matlab Code":"E = prod(A);","Python Code":"E = np.prod(A, axis=0)","Explanation in Short":"Calculates the column-wise product of A"}
+{"Matlab Code":"F = mean(A);","Python Code":"F = np.mean(A, axis=0)","Explanation in Short":"Calculates the column-wise mean of A"}
+{"Matlab Code":"G = std(A);","Python Code":"G = np.std(A, axis=0)","Explanation in Short":"Calculates the column-wise standard deviation of A"}
+{"Matlab Code":"H = eye(5);","Python Code":"H = np.eye(5)","Explanation in Short":"Creates a 5x5 identity matrix H"}
+{"Matlab Code":"I = ones(2, 3);","Python Code":"I = np.ones((2, 3))","Explanation in Short":"Creates a 2x3 matrix filled with ones"}
+{"Matlab Code":"J = zeros(4, 2);","Python Code":"J = np.zeros((4, 2))","Explanation in Short":"Creates a 4x2 matrix filled with zeros"}
+{"Matlab Code":"K = linspace(1, 5, 7);","Python Code":"K = np.linspace(1, 5, 7)","Explanation in Short":"Creates an array with 7 equally spaced values from 1 to 5"}
+{"Matlab Code":"L = reshape(A, 2, 6);","Python Code":"L = np.reshape(A, (2, 6))","Explanation in Short":"Reshapes A into a 2x6 matrix"}
+{"Matlab Code":"M = max(x);","Python Code":"M = np.max(x)","Explanation in Short":"Finds the maximum value in x"}
+{"Matlab Code":"N = min(y);","Python Code":"N = np.min(y)","Explanation in Short":"Finds the minimum value in y"}
+{"Matlab Code":"O = sum(x);","Python Code":"O = np.sum(x)","Explanation in Short":"Calculates the sum of all elements in x"}
+{"Matlab Code":"P = length(y);","Python Code":"P = len(y)","Explanation in Short":"Returns the length of y (number of elements)"}
+{"Matlab Code":"Q = sort(x, 'descend');","Python Code":"Q = sorted(x, reverse=True)","Explanation in Short":"Sorts the elements in x in descending order"}
