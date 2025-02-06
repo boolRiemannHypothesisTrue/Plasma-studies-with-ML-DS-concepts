@@ -1,0 +1,27 @@
+[
+  {
+    "instruction": "sample_instruction_1",
+    "input": "sample_input_1",
+    "output": "sample_output_1"
+  },
+  {
+    "instruction": "sample_instruction_2",
+    "input": "sample_input_2",
+    "output": "sample_output_2"
+  },
+  {
+    "instruction": "sample_instruction_3",
+    "input": "sample_input_3",
+    "output": "sample_output_3"
+  },
+  {
+    "instruction": "sample_instruction_4",
+    "input": "sample_input_4",
+    "output": "sample_output_4"
+  },
+  {
+    "instruction": "sample_instruction_5",
+    "input": "sample_input_5",
+    "output": "sample_output_5"
+  }
+]
